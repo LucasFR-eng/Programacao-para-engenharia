@@ -1,1 +1,2 @@
-console.log("salve cachorro")
+var user = "desconhecido"
+console.log(user)
