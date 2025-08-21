@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(1, 61, 1);
+}
+
+.logo {
+    width: 175px;
+    height: 100px;
+    border: 20px solid wheat;
+    background-color: wheat;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    border-right: 1680px solid wheat;
+}
+
+h1 {
+    color: wheat;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid rgb(1, 61, 1);
+    background-color: rgb(1, 61, 1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.relogio {
+    width: 500px;
+    height: 600px;
+    border-color: rgb(1, 61, 1);
+    background-color: rgb(1, 61, 1);
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid rgb(1, 61, 1);
+}
+
+.ediv {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: wheat;
+    width: 1685px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.imgcontainer {
+    display: flex;
+    text-align: center;
+    gap: 50px;
+    border: 1px solid rgb(1, 61, 1);
+    padding: 10px;
+}
+
+.luneta {
+    width: 500px;
+    height: 500px;
+    border: 5px solid wheat;
+    background-color: wheat;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    animation: giro 30s linear infinite;
+}
+
+.textcontainer {
+    color: wheat;
+    flex: 1;
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: wheat;
+    color: rgb(1, 61, 1);
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.7s;
+    height: 50px;
+    width: 200px;
+}
+
+.botao:hover {
+    background-color: rgb(206, 181, 134);
+    color: rgb(65, 55, 37);
+}
+
+.caixa {
+    border: 5px solid wheat;
+    background-color: wheat;
+    height: 50px;
+}
+
+@keyframes giro {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
