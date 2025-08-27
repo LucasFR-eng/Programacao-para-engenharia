@@ -25,5 +25,5 @@ def merge_sort(array):
             j += 1
             k += 1
         return array
-r = merge_sort([22,34,6,5,7,9,12,69])
-print(r)
+resultado = merge_sort([22,34,6,5,7,9,12,69])
+print(resultado)
